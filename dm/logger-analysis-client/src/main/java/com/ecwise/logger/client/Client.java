@@ -1,6 +1,7 @@
 package com.ecwise.logger.client;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -47,7 +48,8 @@ public class Client extends JFrame {
 		//left panel
 		JPanel leftPanel = new JPanel();
 		leftPanel.setLayout(null);
-		leftPanel.setSize(200, 600);
+//		leftPanel.setSize(200, 600);
+		leftPanel.setPreferredSize(new Dimension(200, 600));
 		
 		JLabel urlLabel = new JLabel("JDBC URL");
 		urlLabel.setBounds(10, 25, 150, 20);
@@ -71,13 +73,13 @@ public class Client extends JFrame {
 		leftPanel.add(passwordTextField);
 		
 		leftPanel.setBorder(new TitledBorder("Database Info"));
-		JButton left1Panel = new JButton("3");
 		this.add(leftPanel, BorderLayout.WEST);
 		
 		//center panel
 		JPanel centerPanel = new JPanel();
 		centerPanel.setLayout(null);
-		centerPanel.setSize(600, 600);
+//		centerPanel.setSize(600, 600);
+		centerPanel.setPreferredSize(new Dimension(600, 600));
 		
 		JLabel titleLabel = new JLabel("Title");
 		titleLabel.setBounds(10, 25, 150, 20);
@@ -88,15 +90,15 @@ public class Client extends JFrame {
 		
 		this.add(centerPanel, BorderLayout.CENTER);
 		
-		addBtn = new JButton("1");
-		addBtn.addActionListener(new AddTempleteListener());
-		JButton northPanel = new JButton("2");
-		JButton southPanel = new JButton("3");
-		
-		
-		this.add(addBtn, BorderLayout.EAST);
-		this.add(northPanel, BorderLayout.NORTH);
-		this.add(southPanel, BorderLayout.SOUTH);
+//		addBtn = new JButton("1");
+//		addBtn.addActionListener(new AddTempleteListener());
+//		JButton northPanel = new JButton("2");
+//		JButton southPanel = new JButton("3");
+//		
+//		
+//		this.add(addBtn, BorderLayout.EAST);
+//		this.add(northPanel, BorderLayout.NORTH);
+//		this.add(southPanel, BorderLayout.SOUTH);
 	}
 	
 	private class AddTempleteListener implements ActionListener{
