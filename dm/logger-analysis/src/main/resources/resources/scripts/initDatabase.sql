@@ -60,7 +60,7 @@ create table StringRule(
 	feature VARCHAR(5000)
 );
 
-DROP TABLE IF EXISTS AnalysisStatus;
+DROP TABLE IF EXISTS TempleteMatchStatus;
 create table TempleteMatchStatus(
 	id VARCHAR(100) PRIMARY KEY AUTO_INCREMENT,
 	fragmentId VARCHAR(100),

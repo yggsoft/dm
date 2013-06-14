@@ -1,0 +1,88 @@
+2013-06-14 14:24:39,865 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - LoggerExtracter is running...
+2013-06-14 14:24:39,866 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Scanning directory: C:\Users\ggyang\Desktop\LoggerAnalysis\LoggerFiles\SourceDir
+2013-06-14 14:24:39,866 [Analyster] INFO  com.angelo.logging.job.LoggerAnalyster - LoggerAnalyster is running...
+2013-06-14 14:24:39,867 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 14:24:39,867 [RetryAnalyster] INFO  com.angelo.logging.job.RetryAnalyster - RetryAnalyster is running...
+2013-06-14 14:25:09,867 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 14:25:14,871 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - Analysizing records.
+2013-06-14 14:25:14,872 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - Records size: 79
+2013-06-14 14:25:28,558 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - a6d14280053b4bbbb529512df8ca6ae4(2012-12-05 00:00:00) is unknown.
+2013-06-14 14:25:28,640 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 3fd3fe73801e42c0925ebf3c8dd566e1(2012-12-05 00:00:00) is unknown.
+2013-06-14 14:25:28,719 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7d0b8fae3fd9483582e3b3082999b9d5(2012-12-05 00:00:00) is unknown.
+2013-06-14 14:25:28,826 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e3b0158c14f143d88d8892e8a187780b(2012-12-05 00:00:00) is unknown.
+2013-06-14 14:25:28,922 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 6240b01968764de29372f1794f8ecd41(2012-12-06 00:00:00) is unknown.
+2013-06-14 14:25:29,020 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8005a08c165d4ea5ada38c44bcc99745(2012-12-06 00:00:00) is unknown.
+2013-06-14 14:25:29,108 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 3248d5efffa64e48b9d42b55fe196203(2012-12-06 00:00:00) is unknown.
+2013-06-14 14:25:29,199 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 049e3792fb8c460380cd8049c63fb3e3(2012-12-06 00:00:00) is unknown.
+2013-06-14 14:25:29,277 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - cc2df1687e8843c1948b0b63c50ddd02(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,378 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7e4025529dec427d9a74a3187728e19f(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,477 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 180df491ef9e4d6d8bb068252fd76224(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,557 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8d4c187144f549259fa78e173da61ab7(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,636 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 831accd1ce1d4764895a7e0a57e89c2c(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,725 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 1baad8d71e4c4ac9af2838fc57ae8fd2(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,817 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 6db61a3e7a7a4bd9869e2155cb02d991(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,904 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 591426858d024af692d07a04258a07ce(2012-12-12 00:00:00) is unknown.
+2013-06-14 14:25:29,996 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - c1fe4ea20a8545cf9e2d011996cfd519(2012-12-18 00:00:00) is unknown.
+2013-06-14 14:25:30,071 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 85fb40c8746144e596dc2df890d49c0b(2012-12-18 00:00:00) is unknown.
+2013-06-14 14:25:30,323 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 44298b269fca4eeaa009c1d825b74a21(2012-12-18 00:00:00) is unknown.
+2013-06-14 14:25:30,407 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 6b0ec42ca6674d09a62b1c67af4f6f3c(2012-12-18 00:00:00) is unknown.
+2013-06-14 14:25:30,525 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8f97b6ba652f40a29fd2ee0e5d48e76e(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:30,621 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - ec91629adb7b4288a20e386d9b6dbfbb(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:30,730 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - ed6e014861c74a5487275b4e11aba336(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:30,819 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 5acdb59099cc4e1a931fa55a63950457(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:30,910 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 2fdbaa787a894dd6bd655ddfba911a6d(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:30,991 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 5d960315cccf4e2f84d5f121c0698b17(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,078 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 59b2923621a049428fe90317d1abb87b(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,161 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 0c35461caedc4a9aa00b8d589b9e6b19(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,258 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - fd0645e12a81484f91e2dafdbdacf94e(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,353 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8300c32a1f50497a89d481f68c635c96(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,441 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8b5df6e314e84f8fbb797cbe2467138d(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,525 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 1a83b3935070484f90ace499117645d0(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,627 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7d54930026614f74b0460f4c14ab425a(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,737 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - cd64fcf9fa254cc9860730acd1e74ab4(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,818 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 94cf0b65be25428797f121839e45c95d(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:31,916 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 4b91ef694587437a80c56fb306eea58b(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,012 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - af9b86f374304583845b388772915d05(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,095 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - d3f1173f9b6d4801902fbb1383cc573d(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,180 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7d31c45f2dac47b090b66538a21046e6(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,272 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - f75b2a7418a84a27a5244a5d04ae5ea7(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,378 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 9153a9b330f54398b6767d1c848cec13(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,460 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - c1df17872a104af18f3e1bed2ee81971(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,560 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - dc47042c2e0f476893d826c0014dc4d8(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,648 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - a749287caa8c489b814923a80a1db1c3(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,749 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - f509cd59e31f47c192a8996a2008f2c3(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,841 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 27e71f80ad1641f19cc65fa8b9a0d411(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:32,929 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - b07cba59eabf46a4bee04dc68b44770a(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,002 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e20ed648ef374d859800d4de2a446be6(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,095 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - eaeaad061c3246e68e5aa11941c99cbe(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,172 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - dddc0ab8bb374e2e93787bf6e3f214de(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,252 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e875777309164f5683a5b7dc34e6c099(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,330 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - eda64e306a3d4c53a2ecd25a902c7862(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,428 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7b157c65b719429b98a98c7a5f8241ec(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,543 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 0203c58dcce34e7a827ee6e2e5ebf76e(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,632 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - a4bbbcf15e754a169dd66f2525e02215(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,714 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - f2d1fe9339a245febc83cb227e48b10b(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,801 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 8d900afed94a4fdfac4a7127596dccfb(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,877 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - bd7a05d3d46842249e331da353634e48(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:33,961 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 51a2fedccf394b3488220e58c04d8834(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,032 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e74a84335d9e4e84a9f755b741040a26(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,111 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 19bc10f85d2f48a39f943c11a3aaa174(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,188 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e0d145ed322340d98ac9d151e29f0207(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,272 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 95a070e820ee4818a26fb9a65dab37db(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,351 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - e32b072dd64044078419e253e4b356bf(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,424 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - a7bbac32d3734898b3c6152a3ed165e3(2012-12-19 00:00:00) is unknown.
+2013-06-14 14:25:34,501 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 16fbc97158cc4ac8a8e6bc126b5db748(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,579 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - c7b9ba05087d48e1bb786f633ca14eee(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,656 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 011a5415312c42a2854d1194778793e1(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,745 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - a5b01b2eefa3424fab7a2a9f54a49bf6(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,818 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - b1033d2b950a42ac889ef788b8ed622e(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,916 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - b75879465bbe498eb81f6b01daa3df78(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:34,989 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 555a7c6d32d2424db3e00479f4c0a5ea(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,074 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - b3817cc2fbed4b17b36d5c262dbf33dd(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,159 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 626ad67b5cce4634a7762566a7084814(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,243 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - d76312e9351a437081618f27779baee5(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,326 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 7ab6ee87bda14793850d8b13b89ffa22(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,417 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 64a53c5e8e2641a394f6e78ba3511cf3(2012-12-20 00:00:00) is unknown.
+2013-06-14 14:25:35,510 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 885d604392284dae9ced1c2235365808(2012-12-21 00:00:00) is unknown.
+2013-06-14 14:25:35,602 [RetryAnalyster] INFO  com.angelo.logging.report.Reports - 804686aa4f9442f6a4c4229d2c7316ac(2012-12-21 00:00:00) is unknown.
+2013-06-14 14:25:39,868 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0

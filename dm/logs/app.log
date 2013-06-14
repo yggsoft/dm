@@ -1,0 +1,161 @@
+2013-06-14 15:04:06,885 [main] ERROR com.angelo.logging.db.DataCentre - database error org.h2.jdbc.JdbcSQLException: Table "TEMPLETEMATCHSTATUS" already exists; SQL statement:
+
+create table TempleteMatchStatus(
+id VARCHAR(100) PRIMARY KEY AUTO_INCREMENT,
+fragmentId VARCHAR(100),
+newestTempleteDate TIMESTAMP
+);
+-- this is for improving performance.
+ [42101-172]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:109)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:79)
+	at org.h2.command.Command.executeUpdate(Command.java:235)
+	at org.h2.command.CommandList.update(CommandList.java:43)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.Command.executeUpdate(Command.java:235)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:335)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+2013-06-14 15:04:08,002 [Analyster] INFO  com.angelo.logging.job.LoggerAnalyster - LoggerAnalyster is running...
+2013-06-14 15:04:08,002 [RetryAnalyster] INFO  com.angelo.logging.job.RetryAnalyster - RetryAnalyster is running...
+2013-06-14 15:04:08,002 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - LoggerExtracter is running...
+2013-06-14 15:04:08,137 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Scanning directory: C:\Users\ggyang\Desktop\LoggerAnalysis\LoggerFiles\SourceDir
+2013-06-14 15:04:08,138 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:04:38,138 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:04:49,419 [main] ERROR com.angelo.logging.db.DataCentre - database error org.h2.jdbc.JdbcSQLException: Table "TEMPLETEMATCHSTATUS" already exists; SQL statement:
+
+create table TempleteMatchStatus(
+id VARCHAR(100) PRIMARY KEY AUTO_INCREMENT,
+fragmentId VARCHAR(100),
+newestTempleteDate TIMESTAMP
+);
+-- this is for improving performance.
+ [42101-172]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:109)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:79)
+	at org.h2.command.Command.executeUpdate(Command.java:235)
+	at org.h2.command.CommandList.update(CommandList.java:43)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.CommandList.executeRemaining(CommandList.java:37)
+	at org.h2.command.CommandList.update(CommandList.java:44)
+	at org.h2.command.Command.executeUpdate(Command.java:235)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:335)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+2013-06-14 15:04:50,749 [Analyster] INFO  com.angelo.logging.job.LoggerAnalyster - LoggerAnalyster is running...
+2013-06-14 15:04:50,757 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - LoggerExtracter is running...
+2013-06-14 15:04:50,757 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Scanning directory: C:\Users\ggyang\Desktop\LoggerAnalysis\LoggerFiles\SourceDir
+2013-06-14 15:04:50,758 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:04:50,758 [RetryAnalyster] INFO  com.angelo.logging.job.RetryAnalyster - RetryAnalyster is running...
+2013-06-14 15:05:20,759 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:05:42,538 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - LoggerExtracter is running...
+2013-06-14 15:05:42,539 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Scanning directory: C:\Users\ggyang\Desktop\LoggerAnalysis\LoggerFiles\SourceDir
+2013-06-14 15:05:42,540 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:05:42,540 [RetryAnalyster] INFO  com.angelo.logging.job.RetryAnalyster - RetryAnalyster is running...
+2013-06-14 15:05:42,543 [Analyster] INFO  com.angelo.logging.job.LoggerAnalyster - LoggerAnalyster is running...
+2013-06-14 15:06:12,540 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:06:42,540 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 12
+2013-06-14 15:06:42,543 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-01
+2013-06-14 15:06:43,101 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-01).
+2013-06-14 15:06:43,101 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-02
+2013-06-14 15:06:48,396 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-02).
+2013-06-14 15:06:48,396 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-03
+2013-06-14 15:06:51,444 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-03).
+2013-06-14 15:06:51,445 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-04
+2013-06-14 15:06:52,308 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-04).
+2013-06-14 15:06:52,308 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-05
+2013-06-14 15:06:52,784 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-05).
+2013-06-14 15:06:52,785 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-09
+2013-06-14 15:06:55,249 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-09).
+2013-06-14 15:06:55,250 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-10
+2013-06-14 15:06:59,591 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-10).
+2013-06-14 15:06:59,591 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-11
+2013-06-14 15:07:00,674 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-11).
+2013-06-14 15:07:00,674 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-12
+2013-06-14 15:07:01,136 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-12).
+2013-06-14 15:07:01,137 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-13
+2013-06-14 15:07:01,601 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-13).
+2013-06-14 15:07:01,601 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-14
+2013-06-14 15:07:03,435 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-14).
+2013-06-14 15:07:03,436 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Parsing log file: cvmedhome.log.2013-01-15
+2013-06-14 15:07:04,526 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Complete parsing log file(cvmedhome.log.2013-01-15).
+2013-06-14 15:07:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:08:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:08:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:09:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:09:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:10:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:10:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:11:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:11:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:12:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:12:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:13:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:13:34,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:14:04,527 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:14:34,528 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
+2013-06-14 15:15:04,529 [Extracter] INFO  com.angelo.logging.job.LoggerExtracter - Total Files: 0
